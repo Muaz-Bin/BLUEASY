@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+/**********header section***********/
+header{
+  background-color:rgba(70,81,89,.7);
+}
+header nav .navbar-brand{
+  font-size: 30px;
+  font-weight: bold;
+}
+header .navbar button{
+  border: none;
+  outline: none;
+}
+header nav .navbar-brand span{
+  color: #4bcaff;
+}
+.navbar .nav-item{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  margin-right: 11px;
+}
+.navbar .nav-item:last-child{
+  margin-right:0px;
+}
+.navbar .nav-item .nav-link{
+  border:1px solid transparent;
+  box-sizing: border-box;
+}
+.navbar .nav-item:hover .nav-link,
+.navbar .nav-item .active{
+  border: 1px solid #4bcaff;
+  color: #4bcaff !important;
+}
+/**********middle section***********/
+#home .home-sec{
+  background-image: url(img/home.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#home .home-slogan{
+  padding-top:300px;
+  padding-bottom:200px;
+}
+#home .home-slogan p{
+  font-size: 33px;
+  background-color: #4a555d;
+  display: inline;
+  color:#fff;
+  line-height: 2;
+}
+#service{
+  background-color: #4bcaff;
+  color: #fff;
+}
+.service-title::after{
+  height: 3px;
+  width: 52px;
+  background-color: #fff;
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+}
+.service-title{
+  position: relative;
+}
+.service-title h3{
+  font-size: 30px;
+}
+#service i{
+  font-size: 37px;
+}
+#service p{
+  font-size:12px;
+}
+#portfolio .service-title::after{
+  background-color: #333;
+}
+#portfolio .img-section{
+  width: 100%;
+  height:270px;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#portfolio .img-section .black-over{
+  background-color: #000;
+  opacity: .7;
+  height: 100%;
+  width: 100%;
+  display:none;
+}
+#portfolio .img-section:hover .black-over{
+  display:block;
+}
+#portfolio .img-section i{
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+#portfolio .img-1{
+  background-image: url(img/1.png);
+}
+#portfolio .img-2{
+  background-image: url(img/2.png);
+}
+#portfolio .img-3{
+  background-image: url(img/3.png);
+}
+#portfolio .img-4{
+  background-image: url(img/4.png);
+}
+#portfolio .img-5{
+  background-image: url(img/5.png);
+}
+#portfolio .img-6{
+  background-image: url(img/6.png);
+}
+#portfolio .img-7{
+  background-image: url(img/7.png);
+}
+#portfolio .img-8{
+  background-image: url(img/8.png);
+}
+#feature{
+  background-color: #515f67;
+}
+.twitter{
+  background-color: #4bcaff;
+}
+.twitter i{
+  font-size: 40px;
+}
+.twitter a{
+  font-style: italic;
+  color: #fff;
+}
+.who{
+  background-image: url(img/who.png);
+  background-position: center;
+  background-size: cover;
+}
+.who.text-light.py-5 i {
+  font-size: 28px;
+  border: 2px solid #fff;
+  padding: 13px;
+  color: #fff;
+}
+.testimonial{
+  color: #7d878d;
+}
+.testimonial .service-title:after{
+  background-color: #7d878d;
+}
+#contact{
+  background-image: url(img/contact.png);
+  background-position: center;
+  background-size: cover;
+}
+#contact .form-control {
+  border-radius: 0;
+  background-color: transparent;
+  color: #fff
+}
+#contact .btn {
+  padding: 10px 100px;
+  border-radius: 0;
+  background: #4bcaff;
+  color: #fff;
+}
